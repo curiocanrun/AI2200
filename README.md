@@ -1,4 +1,4 @@
-## I explored Concepts taught in AI2200 (Concentration Inequalities) :)
+## I explored few concepts taught in AI2200 (Concentration Inequalities) :)
 
 - how the choice of noise distribution affects:
 
