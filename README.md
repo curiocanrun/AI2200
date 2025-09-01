@@ -1,14 +1,15 @@
-## I explored few concepts taught in AI2200 (Concentration Inequalities) :)
+### I explored a few concepts taught in the AI2200 course through code :)
 
-- how the choice of noise distribution affects:
+how the choice of noise distribution affects:
 
- - Empirical loss
- - Number of samples required to be confident about the expected loss
+- Empirical loss
+- Number of samples required to ensure (with high probability) that the empirical loss stays close to the expected loss
 
 I used synthetic linear regression data to compare:
 
- - Gaussian noise (light tails) 
- - Laplace noise (heavy tails)
+- Gaussian noise (light tails)
+- Laplace noise (heavy tails)
 
-and also how Hoeffding's inequality and Bernstein's inequality tell us the sample size needed to ensure our empirical loss doesn’t deviate too much from the true mean (which we don’t actually know :P).
-It’s one of the neat ways to see how heavier-tailed noise like Laplace can make losses larger and increase variance, while Gaussian noise behaves “nicely” with lighter tails :)
+and also looked at how Hoeffding's inequality and Bernstein's inequality bound the sample size needed to keep the empirical loss from straying too far from the true mean (which we don’t actually know :P).
+
+It’s one of the neat ways to see how heavier-tailed noise like Laplace can make the losses larger and more variable, while Gaussian noise behaves “nicely” with its lighter tails :)
