@@ -2,14 +2,10 @@
 
 how the choice of noise distribution affects:
 
-- Empirical loss
-- Number of samples required to ensure (with high probability) that the empirical loss stays close to the expected loss
-
-I used synthetic linear regression data to compare:
-
 - Gaussian noise (light tails)
 - Laplace noise (heavy tails)
 
 and also looked at how Hoeffding's inequality and Bernstein's inequality bound the sample size needed to keep the empirical loss from straying too far from the true mean (which we don’t actually know :P).
+
 
 It’s one of the neat ways to see how heavier-tailed noise like Laplace can make the losses larger and more variable, while Gaussian noise behaves “nicely” with its lighter tails :)
